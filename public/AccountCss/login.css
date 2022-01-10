@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #222222;
+}
+
+.form {
+  width: 40%;
+  padding: 2%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  font-size: 17px;
+  color: white;
+}
+
+.form input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#user,
+#pass {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+#signin {
+  width: 20%;
+  height: 63px;
+  border-radius: 35px;
+  font-size: 20px;
+  background-color: rgb(199, 38, 38);
+  color: white;
+  border: none;
+}
+#signin:hover {
+  background-color: #d8413c;
+}
+
+#forget {
+  color: #dd625e;
+  margin-left: 25%;
+  margin-top: -56px;
+  text-decoration: underline;
+}
+#forget:hover {
+  color: #d18189;
+}

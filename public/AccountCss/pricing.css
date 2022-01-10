@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #222222;
+}
+
+#course {
+  width: 75%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#course p {
+  color: #e6e6e6;
+  text-align: center;
+}
+#mainHead {
+  font-size: 50px;
+  font-weight: 550;
+}
+.secHead {
+  font-size: 35px;
+  font-weight: 550;
+}
+#icons {
+  width: 75%;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#icons img {
+  padding: 10px;
+  width: 100px;
+}
+.link {
+  color: #dd625e;
+}
+.link:hover {
+  color: #d18189;
+}
+.smallHead {
+  font-size: 18px;
+}
+
+/* Price List  */
+
+#priceDiv {
+  height: 200px;
+  width: 75%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  justify-content: space-between;
+}
+
+.subscription1,
+.subscription2,
+.subscription3,
+.subscription4 {
+  padding: 20px;
+  border-top: 7px solid #3e3e3e;
+  background: rgb(17, 17, 17);
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 36%;
+  border-radius: 4px;
+  padding: 6px 4px;
+  background-color: #d85519;
+  margin-top: -18%;
+  margin-left: 76%;
+}
+.price i {
+  opacity: 0.4;
+}
+.subscription1:hover {
+  background: rgb(26, 26, 26);
+}
+.subscription2:hover {
+  background: rgb(26, 26, 26);
+}
+.subscription3:hover {
+  background: rgb(26, 26, 26);
+}
+.subscription4:hover {
+  background: rgb(26, 26, 26);
+}
+
+/* Registration Form */
+
+#registration {
+  background-color: rgb(17, 17, 17);
+  color: white;
+  width: 40%;
+  margin: 30px auto;
+  padding: 30px;
+}
+#regHead {
+  font-size: 30px;
+}
+.form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+.form input,
+select {
+  height: 40px;
+  padding: 5px 20px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+}
+
+#policy {
+  padding: 10px;
+  background-color: #222222;
+}
+
+#submitBtn {
+  width: 32%;
+  height: 70px;
+  border-radius: 35px;
+  font-size: 20px;
+  background-color: rgb(199, 38, 38);
+  color: white;
+  border: none;
+}
+#submitBtn:hover {
+  background-color: #d8413c;
+}
+
+/* TWEETS */
+
+.tweet {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 1% 5% 1% 10%;
+}
+
+.tweet > div {
+  display: flex;
+  gap: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* QUERRY */
+
+.querry {
+  width: 40%;
+  margin: 30px auto;
+  text-align: center;
+  color: white;
+}

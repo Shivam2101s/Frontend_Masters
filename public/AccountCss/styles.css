@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: gris;
+  grid-template-columns: repeat(4, 25%);
+  grid-gap: 20px;
+  justify-content: center;
+  padding: 5%;
+  border: 5px solid yellow;
+}
+.diagona {
+  fill: #1f1f1f;
+
+  height: 24px;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 2;
+}
+.background {
+  width: 100%;
+
+  margin-top: -30%;
+  position: relative;
+  z-index: -1;
+}
+.icons {
+  width: 90px;
+  margin-right: 10px;
+  opacity: 0.8;
+  margin-top: 35px;
+}
+.icons1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.918);
+  margin-top: -4px;
+  height: 155px;
+}
+.icons:hover {
+  opacity: 100%;
+  width: 100px;
+}
+.set1 {
+  width: 100%;
+}
+.btn3 {
+  padding-top: 25px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  padding-right: 60px;
+  border-radius: 35px;
+  background-color: rgb(199, 38, 38);
+  color: rgb(255, 255, 255);
+}
+
+.btn2 {
+  padding-top: 25px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  padding-right: 60px;
+  margin-top: -0px;
+  border-radius: 35px;
+  background-color: rgb(255, 72, 0);
+  color: rgb(255, 255, 255);
+}
+.btn3:hover {
+  background-color: orangered;
+}
+.btn3:hover + .btn2 {
+  background-color: firebrick;
+}
+
+.btn2:hover {
+  background-color: firebrick;
+}
+
+.tweetbox {
+  width: 100%;
+  /* border: 1px solid black; */
+  height: 580px;
+  background-color: rgb(27, 44, 77);
+  text-align: center;
+}
+
+.img2 {
+  width: 100%;
+  height: 100px;
+  z-index: -2;
+}
+.txt3 {
+  padding: 10px 0;
+  display: inline-block;
+  justify-content: center;
+
+  background-color: rgb(240, 87, 32);
+  height: 70px;
+  border-radius: 35px;
+  margin: 30px 40%;
+  width: 300px;
+  padding-left: 100px;
+}
+.txt3:hover {
+  background-color: firebrick;
+}
