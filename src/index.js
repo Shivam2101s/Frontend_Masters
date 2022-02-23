@@ -55,7 +55,7 @@ app.get("/payment", (req, res) => {
   res.render("Payment.ejs");
 });
 app.get("/invoice", (req, res) => {
-  res.render("invoices.ejs");
+  res.render("Invoices.ejs");
 });
 app.get("/teachers", (req, res) => {
   res.render("teachers.ejs");
