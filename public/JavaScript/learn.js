@@ -2,7 +2,7 @@ console.log(" I am going to take data")
 
 async function getdata_lp() {
   try{
-    response = await fetch("/learns");
+    response = await fetch("https://frontend-masters.herokuapp.com/learns");
 
     data = await response.json();
      console.log(data, "I am here")

@@ -28,7 +28,7 @@ function update(e) {
   
   async function loginUser(user) {
     try {
-      let response = await fetch(`/users/${user_mail}`, {
+      let response = await fetch(`https://frontend-masters.herokuapp.com/users/${user_mail}`, {
         method: "PATCH",
         body: user,
         headers: {

@@ -1,6 +1,6 @@
 async function getdata_lp() {
   try{
-    response = await fetch("/lectures");
+    response = await fetch("https://frontend-masters.herokuapp.com/lectures");
 
     data = await response.json();
      console.log(data, "I am here")

@@ -51,7 +51,7 @@ function signup() {
 
 async function getuser(user, email) {
   try {
-    let response = await fetch(`/users/${email}`, {
+    let response = await fetch(`https://frontend-masters.herokuapp.com/users/${email}`, {
       method: "GET",
     });
 

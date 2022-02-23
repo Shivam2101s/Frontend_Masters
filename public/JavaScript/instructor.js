@@ -1,6 +1,6 @@
 async function getData() {
 
-let res = await fetch(`/instructors`, {
+let res = await fetch(`https://frontend-masters.herokuapp.com/instructors`, {
     method: "GET"
   });
   let data = await res.json();

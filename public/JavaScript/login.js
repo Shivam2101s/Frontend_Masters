@@ -15,7 +15,7 @@ function signIn(e) {
 
 async function loginUser(user,email) {
   try {
-    let response = await fetch(`/users/${email}`, {
+    let response = await fetch(`https://frontend-masters.herokuapp.com/users/${email}`, {
       method: "GET",
     });
 
@@ -27,7 +27,7 @@ async function loginUser(user,email) {
       alert("User Not Registered");
       window.location.reload();
     }else {
-      let res = await fetch(`/users/${email}`, {
+      let res = await fetch(`https://frontend-masters.herokuapp.com/users/${email}`, {
         method: "POST",
         body: user,
         headers: {
