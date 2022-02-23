@@ -10,3 +10,4 @@ footer_div.innerHTML = footer();
   
 navbar_div.innerHTML = navbar();
 
+console.log("Working")
