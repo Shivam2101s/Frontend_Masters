@@ -10,9 +10,9 @@ router.post("", async (req, res) => {
     try {
       const user = await User.create(req.body);
   
-      res.status(201).send(user);
+     return res.status(201).send(user);
     } catch (e) {
-      res.status(500).json({ status: e.message });
+     return res.status(500).json({ status: e.message });
     }
   });
 
@@ -22,7 +22,7 @@ router.post("", async (req, res) => {
        // if user does not exist, then throw an error
   
       if (!user) {
-        res
+      return  res
           .status(400)
           .json({
             status: "Failed",
@@ -36,7 +36,7 @@ router.post("", async (req, res) => {
       // if it does not match then throw an error
   
       if (!match) {
-        res
+       return res
           .status(400)
           .json({
             status: "Failed",
