@@ -4,14 +4,14 @@ function footer() {
     <div class="lst" > 
     <img class="logo2" src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg" alt="">    
     <ul>
-       <a href="http://localhost:3000/course"><li>Courses</li></a>
-       <a href="http://localhost:3000/learn"><li>Learn</li></a>
-       <a href="http://localhost:3000/teachers"><li>Teachers</li></a>
+       <a href="https://frontend-masters.herokuapp.com/course"><li>Courses</li></a>
+       <a href="https://frontend-masters.herokuapp.com/learn"><li>Learn</li></a>
+       <a href="https://frontend-masters.herokuapp.com/teachers"><li>Teachers</li></a>
        <a href=""><li>Guides</li></a>
-       <a href="http://localhost:3000/pricing"><li>Pricing</li></a>
-       <a href="http://localhost:3000/login"><li>Login</li></a>
-       <a href="http://localhost:3000/pricing"><li>Join Now</li></a>
-       <a href="http://localhost:3000"><li>FAQ</li></a>
+       <a href="https://frontend-masters.herokuapp.com/pricing"><li>Pricing</li></a>
+       <a href="https://frontend-masters.herokuapp.com/login"><li>Login</li></a>
+       <a href="https://frontend-masters.herokuapp.com/pricing"><li>Join Now</li></a>
+       <a href="https://frontend-masters.herokuapp.com"><li>FAQ</li></a>
     
     </ul>
     

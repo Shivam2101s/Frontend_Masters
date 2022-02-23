@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/swarnikaraj/frontEndMaster-clone.git"
   },
-  "author": "Swarnnika",
+  "author": "Shivam",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/swarnikaraj/frontEndMaster-clone/issues"
@@ -24,7 +24,6 @@
     "express": "^4.17.2",
     "firebase": "^9.4.1",
     "hbs": "^4.2.0",
-    "heroku": "^7.59.2",
     "json-server": "^0.17.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.1.2",
