@@ -42,17 +42,17 @@ app.get("/login", (req, res) => {
 });
 
 app.get("/workshop", (req, res) => {
-  res.render("workshops.ejs");
+  res.render("Workshops.ejs");
 });
 
 app.get("/account", (req, res) => {
   res.render("account.ejs");
 });
 app.get("/subscription", (req, res) => {
-  res.render("subscription.ejs");
+  res.render("Subscription.ejs");
 });
 app.get("/payment", (req, res) => {
-  res.render("payment.ejs");
+  res.render("Payment.ejs");
 });
 app.get("/invoice", (req, res) => {
   res.render("invoices.ejs");
